@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:oef2._3"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+    <Grid Loaded="Grid_Loaded_1">
+        <Button x:Name="ButtonMessage" Content="Bericht" HorizontalAlignment="Left" Height="22" Margin="180,139,0,0" VerticalAlignment="Top" Width="131" Click="ButtonMessage_Click_1"/>
+
     </Grid>
 </Window>

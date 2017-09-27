@@ -24,5 +24,14 @@ namespace oef2._3
         {
             InitializeComponent();
         }
+        private void Grid_Loaded_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Catho Driesen");
+        }
+
+        private void ButtonMessage_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("16 jaar oud");
+        }
     }
 }
